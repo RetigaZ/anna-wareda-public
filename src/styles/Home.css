@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tid {
+   position: absolute;
+   top: 40%;
+   word-wrap: break-word;
+   width: 30%;
+}
+
+.image {
+    position: relative;
+    top: 20px;
+    left: 19px;
+    width: 171px;
+    background: linear-gradient(46deg, #326647, #6ac5bb);
+    height: 171px;
+    border-radius: 50%;
+    transition: 0.45s;
+}
+
+.image:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.portrait {
+    width: 160px;
+    border-radius: 50%;
+    /* border: 3px solid; */
+    transition: 0.45s;
+    margin-top: 4.5px;
+}
+
+.portrait:hover {
+    width: 190px;
+    margin-top: 4.1px;
+}

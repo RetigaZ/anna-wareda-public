@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  height: 76px;
+  border-bottom: 1px solid gray;
+}
+
+.home-a {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+}
+
+.home-a:hover {
+  letter-spacing: 1.6px;
+}
+
+.logo {
+  margin-left: 5px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.name > p {
+  font-size: 25px;
+  position: relative;
+  bottom: 65px;
+  left: 125px;
+}
+
+.name > a {
+  text-decoration: none;
+}
+
+.logo > p {
+  font-size: 55px;
+  margin-top: -83px;
+  margin-left: 107px;
+}
+
+.links {
+  text-transform: uppercase;
+  padding: 10px;
+  position: relative;
+  top: 2.4%;
+  position: absolute;
+  right: 2px;
+}
+
+.links > a {
+  padding: 11px;
+}
+
+.abt,
+.cert {
+  background: #326647;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 45px;
+  transition: 0.32s;
+  font-weight: 600;
+  margin: 4px;
+}
+
+.abt:hover,
+.cert:hover {
+  background: none;
+  color: black;
+  border: 1px solid #444444;
+  letter-spacing: 1.2px;
+}
