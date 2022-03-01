@@ -1,0 +1,36 @@
+.medias {
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.instagram_anna {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.instagram_bari {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.instaLogo {
+    width: 170px;
+    position: relative;
+    top: 30px;
+    transition: 0.3s;
+}
+
+.instaLogo:hover {
+    width: 190px;
+}
+
+@media only screen and (max-width: 411px) {
+    .medias {
+        display: flex;
+    }
+}

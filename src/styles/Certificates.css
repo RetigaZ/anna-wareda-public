@@ -1,0 +1,65 @@
+.certificates {
+    overflow-x: visible;
+    display: flex;
+    position: absolute;
+}
+
+.moje-certyfikaty {
+    text-align: center;
+}
+
+.certyfikat {
+    display: flex;
+}
+
+.psiedszkole_img {
+    width: 80%;
+    border-radius: 13px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.6px solid black;
+    transition: 0.3s;
+    box-shadow: 6px 6px black;
+}
+
+.psiedszkole_img:hover {
+    width: 84%;
+}
+
+.psiedszkole > h2 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.megapaka_img {
+    width: 50%;
+    border-radius: 13px;
+    top: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.6px solid black;
+    transition: 0.3s;
+    box-shadow: 6px 6px black;
+}
+
+.megapaka_img:hover {
+    width: 52%;
+}
+
+.megapaka > h2 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}

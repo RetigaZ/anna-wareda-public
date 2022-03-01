@@ -17,11 +17,14 @@ function Header() {
         </div>
       </a>
       <div className="links">
-        <a className="abt" href="/">
-          o mnie
+        <a className="media" href="/media">
+          media
         </a>
-        <a className="cert" href="/">
+        <a className="cert" href="/certificates">
           certyfikaty
+        </a>
+        <a className="cert" href="/about-me">
+          o mnie
         </a>
       </div>
     </div>

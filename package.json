@@ -35,5 +35,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Personalna strona dla Ani.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RetigaZ/anna-wareda-public.git"
+  },
+  "author": "Retiga Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RetigaZ/anna-wareda-public/issues"
+  },
+  "homepage": ""
 }

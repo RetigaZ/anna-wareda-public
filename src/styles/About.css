@@ -1,0 +1,16 @@
+.o-mnie {
+    text-align: center;
+    overflow: visible;
+}
+
+.opis {
+    width: 56%;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}

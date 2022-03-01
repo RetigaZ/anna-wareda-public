@@ -1,42 +1,120 @@
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10;
 }
 
 .tid {
-   position: absolute;
-   top: 40%;
-   word-wrap: break-word;
-   width: 30%;
+  position: absolute;
+  top: 40%;
+  word-wrap: break-word;
+  width: 80%;
+  border-right: 2px solid gray;
 }
 
 .image {
-    position: relative;
-    top: 20px;
-    left: 19px;
-    width: 171px;
-    background: linear-gradient(46deg, #326647, #6ac5bb);
-    height: 171px;
-    border-radius: 50%;
-    transition: 0.45s;
-}
-
-.image:hover {
-    width: 200px;
-    height: 200px;
+  position: relative;
+  top: 20px;
+  left: 19px;
+  width: 171px;
+  height: 171px;
+  border-radius: 50%;
+  transition: 0.45s;
 }
 
 .portrait {
-    width: 160px;
-    border-radius: 50%;
-    /* border: 3px solid; */
-    transition: 0.45s;
-    margin-top: 4.5px;
+  width: 240px;
+  border-radius: 50%;
+  /* border: 3px solid; */
+  align-items: center;
+  right: 210%;
+  transition: 0.45s;
+  position: absolute;
+  margin-top: -33px;
 }
 
 .portrait:hover {
-    width: 190px;
-    margin-top: 4.1px;
+  width: 270px;
+  margin-top: -40px;
+  margin-right: -20px;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 60px;
+}
+
+.desc {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  right: 760px;
+}
+
+.contact {
+  position: absolute;
+  top: 28%;
+  right: 9%;
+}
+
+.tel {
+  position: absolute;
+  top: 140px;
+  left: 70px;
+}
+
+.telefon {
+  position: absolute;
+  top: 225px;
+  left: 92px;
+}
+
+.info {
+  font-size: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .portrait {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+  }
+  .desc {
+    position: absolute;
+    left: 135px;
+    width: 280px;
+    font-size: 20px;
+    top: -110px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 413px) {
+  .desc {
+    left: 30px;
+    top: -100px;
+  }
+}
+
+@media only screen and (max-width: 973px) {
+  .contact {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .home {
+    display: flex;
+  }
 }
