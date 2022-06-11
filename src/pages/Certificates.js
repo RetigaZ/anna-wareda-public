@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Certificates.css";
 import psiedszkole from "../assets/certyfikat_psiedszkole.png";
 import megaPaka from "../assets/mega_paka_dla_szczeniaka_i_starszaka.png";
-import ribbon from "../assets/certificate-sign.png";
 
 function Certificates() {
   return (
