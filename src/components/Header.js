@@ -16,7 +16,7 @@ function Header() {
           </div>
         </div>
       </a>
-      <div className="links">
+      {/* <div className="links">
         <a className="media" href="/media">
           media
         </a>
@@ -26,7 +26,7 @@ function Header() {
         <a className="cert" href="/about-me">
           o mnie
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
